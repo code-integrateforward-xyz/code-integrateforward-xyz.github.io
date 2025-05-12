@@ -1,2 +1,2 @@
 # code-integrateforward-xyz.github.io
-static website
+static website for Integrate Forward
