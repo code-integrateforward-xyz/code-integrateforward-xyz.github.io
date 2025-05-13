@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Integrate Forward - XYX</title>
+    <title>Integrate Forward</title>
     <style>
         * {
             margin: 0;
@@ -67,6 +67,54 @@
             gap: 1rem;
             justify-content: center;
         }
+
+        .by-developers {
+            background-color: #000f2d;
+            color: white;
+            padding: 6rem 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .label {
+            color: #00b8d4;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .by-developers h2 {
+            font-size: 3rem;
+            margin: 1rem 0 1.5rem;
+            max-width: 600px;
+        }
+
+        .description {
+            font-size: 1.25rem;
+            color: #a0aec0;
+            max-width: 600px;
+            margin-bottom: 4rem;
+            line-height: 1.6;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .stat-item h3 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .stat-item p {
+            color: #a0aec0;
+            line-height: 1.5;
+        }
     </style>
 </head>
 <body>
@@ -75,24 +123,51 @@
             <strong>Integrate Forward</strong>
         </a>
         <div class="nav-links">
+            <a href="#about">About</a>
             <a href="#products">Products</a>
             <a href="#solutions">Solutions</a>
             <a href="#resources">Resources</a>
-            <a href="#docs">Docs</a>
-            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
         </div>
         <div class="nav-right">
-            <a href="#login">Log In</a>
+            <a href="#login" class="button button-primary">Log In</a>
             <a href="#signup" class="button button-primary">Sign Up</a>
         </div>
     </nav>
 
     <section class="hero">
-        <h1>Your complete platform for integration.</h1>
+        <h1>Your complete platform for data integration.</h1>
         <p>Integrate Forward provides the developer tools and cloud infrastructure to build, scale, and secure a faster, more connected world.</p>
         <div class="cta-buttons">
             <a href="#start" class="button button-primary">Start Building</a>
             <a href="#demo" class="button">Get a Demo</a>
+        </div>
+    </section>
+
+    <section class="by-developers">
+        <div class="container">
+            <span class="label">Global scale</span>
+            <h2>The backbone for data integration</h2>
+            <p class="description">Integrate Forward makes data integration as easy and programmable as moving data. Our teams are based in offices around the world and we process millions of integrations each day for ambitious businesses of all sizes.</p>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>500M+</h3>
+                    <p>API requests per day, peaking at 13,000 requests a second.</p>
+                </div>
+                <div class="stat-item">
+                    <h3>99.999%</h3>
+                    <p>historical uptime for Integrate Forward services.</p>
+                </div>
+                <div class="stat-item">
+                    <h3>90%</h3>
+                    <p>of enterprise businesses use our integration platform.</p>
+                </div>
+                <div class="stat-item">
+                    <h3>135+</h3>
+                    <p>pre-built connectors and integration methods supported.</p>
+                </div>
+            </div>
         </div>
     </section>
 </body>
