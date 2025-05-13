@@ -1,8 +1,99 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Integrate Forward - XYX</title>
-  </head>
-  <body>
-    <h1>Coming Soon...</h1>
-  </body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: #ffffff;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-right {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .button {
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        .button-primary {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            color: #666;
+            margin-bottom: 2rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/" class="logo">
+            <strong>Integrate Forward</strong>
+        </a>
+        <div class="nav-links">
+            <a href="#products">Products</a>
+            <a href="#solutions">Solutions</a>
+            <a href="#resources">Resources</a>
+            <a href="#docs">Docs</a>
+            <a href="#pricing">Pricing</a>
+        </div>
+        <div class="nav-right">
+            <a href="#login">Log In</a>
+            <a href="#signup" class="button button-primary">Sign Up</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Your complete platform for integration.</h1>
+        <p>Integrate Forward provides the developer tools and cloud infrastructure to build, scale, and secure a faster, more connected world.</p>
+        <div class="cta-buttons">
+            <a href="#start" class="button button-primary">Start Building</a>
+            <a href="#demo" class="button">Get a Demo</a>
+        </div>
+    </section>
+</body>
 </html>
